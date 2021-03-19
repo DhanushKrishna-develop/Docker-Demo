@@ -2,7 +2,7 @@ FROM alpine:3.9
 
 RUN apk add --update py3-pip
 
-COPY python.py C:\Users\dhanusr1\Desktop\Test
+COPY python.py /usr/src/app/
 
-CMD python3 C:\Users\dhanusr1\Desktop\Test\python.py
+CMD python3 /usr/src/app/python.py
 
